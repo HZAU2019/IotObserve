@@ -9,6 +9,7 @@ import android.os.Vibrator;
 import androidx.annotation.RequiresApi;
 
 public class Alarm {
+    //hello
     public static Ringtone alarm;//响铃声
     public static Vibrator vibrator;//震动声
     public static final void initializeAlarm(){
