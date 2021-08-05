@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">油菜播种物联网监测平台</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_device">请选择您当前需要监测的设备</string>
+    <string name="platform">播种平台</string>
+    <string name="number">设备编号</string>
+    <string name="m430">430</string>
+    <string name="Rpi">RPi</string>
+    <string name="d1">1号机</string>
+    <string name="d2">2号机</string>
+    <string name="d3">3号机</string>
+    <string name="ok">选择完毕</string>
+    <string name="name">油菜播种物联网监测平台</string>
+    <string name="seed_frequency">播种频率</string>
+    <string name="seed_number">播种总量</string>
+
+
+    <string name="Insert">警报关闭</string>
+    <string name="Buttonstop">设备切换</string>
+    <string name="tongdao1">通道1</string>
+    <string name="tongdao2">通道2</string>
+    <string name="tongdao3">通道3</string>
+    <string name="tongdao4">通道4</string>
+    <string name="tongdao5">通道5</string>
+    <string name="tongdao6">通道6</string>
+    <string name="zongji">总计</string>
+    <string name="chushizhi">0</string>
+    <string name="pinlv">(粒/秒)</string>
+    <string name="liang">（粒）</string>
+    <string name="chart">图表</string>
+    <string name="实时图表">实时图表</string>
+    <string name="历史记录">历史记录</string>
+
+    <string name="get_table_name">请选择您要查询的日期</string>
+    <string name="search_table_name">搜索</string>
+    <string name="tongdao_current">选择通道：总通道</string>
+    <string name="index_current">选择参数：播量</string>
+    <string name="switch_mode">频率/播量</string>
+    <string name="demo_table_name">table_20200630_430_1_test1</string>
+    <string name="平面">平面地图</string>
+    <string name="卫星">卫星地图</string>
+    <string name="SelectChart">折线/柱状</string>
+
+
+    //从wifi那个页面里来的
+    <string name="head"></string>
+    <string name="第一路">1路</string>
+    <string name="第二路">2路</string>
+    <string name="第三路">3路</string>
+    <string name="第四路">4路</string>
+    <string name="第五路">5路</string>
+    <string name="第六路">6路</string>
+    <string name="播种总量">播种总量：</string>
+    <string name="播种频率">播种频率：</string>
+    <string name="开始连接">开始连接</string>
+    <string name="图表">实时图表</string>
+    <string name="各路频率">各路排种频率(粒/秒)</string>
+    <string name="各路总数">各路播量(粒)</string>
+    <string name="频率单位">(粒/秒:)</string>
+    <string name="总数单位">(粒:)</string>
+    <string name="标题">油麦兼用播种监测系统</string>
+    <string name="yi">13</string>
+    <string name="er">16</string>
+    <string name="san">15</string>
+    <string name="si">13</string>
+    <string name="wu">15</string>
+    <string name="lu">17</string>
+    <string name="yia">12133</string>
+    <string name="era">11957</string>
+    <string name="sana">12020</string>
+    <string name="sia">11847</string>
+    <string name="wua">11994</string>
+    <string name="lua">12051</string>
+</resources>

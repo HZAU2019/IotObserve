@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/selectDevice">
+
+    <fragment
+        android:id="@+id/selectDevice"
+        android:name="com.example.iotobserve.SelectDevice"
+        android:label="fragment_select_device"
+        tools:layout="@layout/fragment_select_device" >
+        <action
+            android:id="@+id/action_selectDevice_to_timeObserve"
+            app:destination="@id/timeObserve" />
+    </fragment>
+    <fragment
+        android:id="@+id/timeObserve"
+        android:name="com.example.iotobserve.TimeObserve"
+        android:label="fragment_time_observe"
+        tools:layout="@layout/fragment_time_observe" >
+        <action
+            android:id="@+id/action_timeObserve_to_selectDevice"
+            app:destination="@id/selectDevice" />
+        <action
+            android:id="@+id/action_timeObserve_to_getTableName"
+            app:destination="@id/getTableName" />
+        <action
+            android:id="@+id/action_timeObserve_to_currentChartMap"
+            app:destination="@id/currentChartMap" />
+    </fragment>
+    <fragment
+        android:id="@+id/getTableName"
+        android:name="com.example.iotobserve.GetTableName"
+        android:label="fragment_get_table_name"
+        tools:layout="@layout/fragment_get_table_name" >
+        <action
+            android:id="@+id/action_getTableName_to_historyChart"
+            app:destination="@id/historyChart" />
+        <action
+            android:id="@+id/action_getTableName_to_historyChartMap"
+            app:destination="@id/historyChartMap" />
+    </fragment>
+    <fragment
+        android:id="@+id/currentChart"
+        android:name="com.example.iotobserve.CurrentChart"
+        android:label="fragment_current_chart"
+        tools:layout="@layout/fragment_current_chart" >
+        <action
+            android:id="@+id/action_currentChart_to_currentBaiduMap"
+            app:destination="@id/currentBaiduMap" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyChart"
+        android:name="com.example.iotobserve.HistoryChart"
+        android:label="fragment_history_chart"
+        tools:layout="@layout/fragment_history_chart" >
+        <action
+            android:id="@+id/action_historyChart_to_historyBaiduMap"
+            app:destination="@id/historyBaiduMap" />
+    </fragment>
+    <fragment
+        android:id="@+id/currentBaiduMap"
+        android:name="com.example.iotobserve.CurrentBaiduMap"
+        android:label="fragment_current_baidu_map"
+        tools:layout="@layout/fragment_current_baidu_map" />
+    <fragment
+        android:id="@+id/historyBaiduMap"
+        android:name="com.example.iotobserve.HistoryBaiduMap"
+        android:label="fragment_history_baidu_map"
+        tools:layout="@layout/fragment_history_baidu_map" />
+    <fragment
+        android:id="@+id/currentChartMap"
+        android:name="com.example.iotobserve.CurrentChartMap"
+        android:label="fragment_current_chart_map"
+        tools:layout="@layout/fragment_current_chart_map" >
+        <action
+            android:id="@+id/action_currentChartMap_to_currentChart"
+            app:destination="@id/currentChart" />
+        <action
+            android:id="@+id/action_currentChartMap_to_currentBaiduMap"
+            app:destination="@id/currentBaiduMap" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyChartMap"
+        android:name="com.example.iotobserve.HistoryChartMap"
+        android:label="fragment_history_chart_map"
+        tools:layout="@layout/fragment_history_chart_map" >
+        <action
+            android:id="@+id/action_historyChartMap_to_historyChart"
+            app:destination="@id/historyChart" />
+        <action
+            android:id="@+id/action_historyChartMap_to_historyBaiduMap"
+            app:destination="@id/historyBaiduMap" />
+    </fragment>
+</navigation>
